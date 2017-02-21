@@ -9,12 +9,21 @@ https://ajoythomas.github.io/ntchq/
 
 
 Few links: 
+
 Home: https://ajoythomas.github.io/ntchq/ 
+
 Login: https://ajoythomas.github.io/ntchq/login.html
+
 EventSelect: https://ajoythomas.github.io/ntchq/event-select.html
+
 Registration: https://ajoythomas.github.io/ntchq/registration.html
+
 Arrival: https://ajoythomas.github.io/ntchq/arrival.html
+
 Search: https://ajoythomas.github.io/ntchq/search.html
+
 My Profile: https://ajoythomas.github.io/ntchq/profile.html
+
 Change Password: https://ajoythomas.github.io/ntchq/change-password.html
+
 FAQ: https://ajoythomas.github.io/ntchq/faq.html
