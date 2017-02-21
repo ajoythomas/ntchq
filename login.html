@@ -85,14 +85,7 @@
     <script src="js/bootstrap.min.js"></script>
   <script>
  
-      $('#forgot').click(function () {
-          $('#showHelp').slideToggle('slow', function () {
 
-              // Animation complete.
-              $('#forgot').html("");
-          });
-             
-        });
       
   var liftoffTime = new Date("July 05, 2017 00:00:00");
   $.countdown.setDefaults({description: ' left'});
@@ -104,7 +97,14 @@
   $('#txt_password').focus(function() {
    $(".flip-container").removeClass("hover");
   });
+      $('#forgot').click(function () {
+          $('#showHelp').slideToggle('slow', function () {
 
+              // Animation complete.
+              $('#forgot').html("");
+          });
+             
+        });
 
   </script>
   </body>
