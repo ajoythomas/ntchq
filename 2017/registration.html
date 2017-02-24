@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
 
-                    <li class="nav-item reg"><a class="nav-link" href="#"><i class="fa fa-pencil"></i> REGISTRATION</a>
+                    <li class="nav-item reg"><a class="nav-link active" href="#"><i class="fa fa-pencil"></i> REGISTRATION</a>
                     </li>
                     <li class="nav-item arrival"><a class="nav-link" href="#"><i class="fa fa-group"></i> ARRIVAL</a>
                     </li>
@@ -61,56 +61,87 @@
      <!-- Mast head Logo -->
 	  <div class="first-container">
 		  <div class="mast-page cutout">
-			 <a href="#"><span class="image-wrap mastreg"><i class="fa fa-home mast-img"></i></a>
+			 <a href="#"><span class="image-wrap mastreg"><i class="fa fa-pencil mast-img"></i></a>
 		  </div>
 	  </div>
      <!-- Page content -->
           <div class="container">
+            
+               
+                  <div class="row">
+                <div class="col-md-8">
+                    <div class="card card-block bg-faded form-search ">
+                        <form class="form-inline">
+                            <legend><span class="cori"><i class="fa fa-search"></i> Search For A Person's Prior Registration</span></legend>
+                            
+                             <select name="" id="" class="custom-select">
+		<option value="1">Name Full Text Search</option>
+		<option value="2">First Name and Last Name </option>
+		<option value="3">Church Code and Last Name</option>
+		<option value="4">Church Code and First Name</option>
+		<option value="5">First Name</option>
+		<option value="6">Last Name</option>
+		<option value="7">Form No</option>
+		<option value="8">Label No</option>
+
+	</select>&nbsp;
+                                <div class="input-group">
+                          
+                                  <input type="text" class="form-control" placeholder="Search for...">
+                                  <span class="input-group-btn">
+                                    <button class="btn btn-primary" type="button">Go!</button>
+                                  </span>
+                                </div>
+                      
+                           
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                     <div class="card card-block bg-faded form-search ">
+                        <fieldset>
+                            <legend><span class="cori"><i class="fa fa-list"></i> Start a Brand New Form</span></legend>
+                            <input type="submit" name="ctl00$ContentPlaceHolder1$btnNewForm" value="Start A New Form" id="ctl00_ContentPlaceHolder1_btnNewForm" tabindex="55" class="btn btn-medium btn-info">
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+                  </div>
+          
+          <div class="container">
               <div class="row">
-                <div class="col-md-12">
-                    
-                <h3 class="text-center">Welcome To The Cornerstone Event Manager</h3>
-              
-                    <div class="card">
-                        <div class="card-block">
-                <p>
-                    Dear Brethren:
-                </p>
-                <p>
-                    We want to inform you about the availability of resources that will assist you as
-                    you manage the convention registration of your believers. We have set up a help
-                    page that has links to various documents that will be of use to you. We will be
-                    continuously updating this page with other resources as time permits.
-                </p>
-                <p>
-                    The help page can be found at the following URL: 
-                    <a id="ContentPlaceHolder1_HyperLink1" href="FAQ.aspx">Help &amp; FAQ</a>
-                </p>
-                <p>
-                    Before starting to enter the registration forms online, please visit the help page
-                    and use the following documents to guide you:</p>
-                <ul>
-                    <li>User Guide</li>
-                    <li>Lists: Type, Arrival Day, Transport
-                    
-                    </li>
-                </ul>
-                <p>
-                    Please use the latest version of any available browser. If you require any assistance,
-                    please email the development team at <a href="mailto:cornerstone@ntchq.org">cornerstone@ntchq.org</a>
-                </p>
-                <p>
-                    If you require immediate assistance, please call <strong>Sue George @ 551-587-8301.</strong>
-                </p>
-                <p>
-                    Thank you, <br>The Convention Registration Team.</p>
-                        
-                    </div>
-                    </div>
-                    
-                  </div>
-                  </div>
+              <div class="col-md-12">
+                                <!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="tab" href="#home" role="tab">Personal Details</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Other details</a>
+  </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane active" id="home" role="tabpanel">Personal details</div>
+  <div class="tab-pane" id="profile" role="tabpanel">Other Details</div>
+  <div class="tab-pane" id="messages" role="tabpanel">...</div>
+  <div class="tab-pane" id="settings" role="tabpanel">...</div>
 </div>
+                  
+                  
+                  </div>
+              
+              
+              </div>
+                  
+              
+</div>
+              
+            
+      
+    
 
 
 
